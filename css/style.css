@@ -12,6 +12,9 @@ p{
 footer{
     height: 225px;
     background-color: gray;
+    position:fixed;
+    bottom:0px;
+    opacity:.9;
 }
 
 .blockleft {
