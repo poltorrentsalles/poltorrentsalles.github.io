@@ -77,12 +77,20 @@ footer{
 
 
 .textfooter{
+    display:flex;
     padding:5px 0px 5px 15px;
     font-family: sans-serif;
     letter-spacing: 3px;
     font-size: 0.9em;
     line-height: 1.2em;
+   
+    width:80%;
+    align-items: center;
+    font-size: 1.4em;
+    
 }
 .imatgefooter{
-    border-radius: 35px;
+    border-radius: 100%;
+    padding:12px;
+   
 }
