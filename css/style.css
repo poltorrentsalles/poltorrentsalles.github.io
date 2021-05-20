@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+    margin: 0px;
+    padding-left: 10px;
+}
+
+
+p{
+    color: white;
+}
+
+footer{
+    height: 225px;
+    background-color: gray;
+}
+
+.blockleft {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 5 500px;
+    justify-content: center;
+}
+
+.mainmenu {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+
+.menuright {
+    border-radius: 0px;
+    flex: 1 500px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 33%;
+    padding: 12px;
+    justify-content: center;
+}
+
+.behance {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 33%;
+}
+
+.CV {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 33%;
+}
+
+
+.contingut {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.menufooter {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100;
+    background-color: gray;
+}
+
+
+.nomfooter{
+    font-size: 1.7em; 
+}
+
+
+.textfooter{
+    padding:5px 0px 5px 15px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    font-size: 0.9em;
+    line-height: 1.2em;
+}
+.imatgefooter{
+    border-radius: 35px;
+}
